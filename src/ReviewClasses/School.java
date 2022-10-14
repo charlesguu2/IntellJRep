@@ -2,17 +2,19 @@ package ReviewClasses;
 
 public class School {
     public static void main(String[] args) {
-        Teacher t = new Teacher("John", "Smith");
-        System.out.println(t.name);
 
-        new Teacher("Jane","Smith","Biology").teach();
+            Teacher t=new Teacher("John", "Smith");
+            System.out.println(t.name);
 
-        new Teacher("Jal","Smoke",8).print();
+            Teacher t1=new Teacher("Jane", "Smith", "Biology");
+            t1.teach();
 
-        Teacher.school="Syntax";
-        Teacher.work();
+            Teacher t2=new Teacher("Jack", "Smith", 5);
 
+            Teacher.school="Syntax";
+            Teacher.work();
 
+        }
 
     }
-}
+

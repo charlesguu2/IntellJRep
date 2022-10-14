@@ -5,8 +5,7 @@ import ReviewClasses.Teacher;
 public class TeacherTest {
     public static void main(String[] args) {
 
-        Teacher t=new Teacher("John","Smith",2);
-        
+        //Teacher t=new Teacher("John","Smith",2);
 
     }
 }
