@@ -10,6 +10,7 @@ public class School {
         new Teacher("Jal","Smoke",8).print();
 
         Teacher.school="Syntax";
+        Teacher.work();
 
 
 

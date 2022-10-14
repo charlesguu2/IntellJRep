@@ -21,7 +21,7 @@ public class Teacher {
         this.subject = subject;
     }
 
-    Teacher(String name, String lname, int experience) {
+    public Teacher(String name, String lname, int experience) {
         this(name,lname);
         this.experience=experience;
     }
@@ -37,7 +37,7 @@ public class Teacher {
     }
 
     void teach() {
-        print();
+        this.print();
         System.out.println(name+" teaches "+subject);
     }
 
