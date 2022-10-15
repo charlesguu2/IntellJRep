@@ -5,30 +5,32 @@ public class CreditCard {
     based on the given balance.
     Create 2 subclasses: Visa and AX. In AX class override method calculate interest.
     Call the method by creating an object of each of the three classes.*/
-     int balance=10000;
+     double balance=10000;
      double interest=2.0;
 
+     CreditCard(double balance, double interest){
+         this.balance=balance;
+         this.interest=interest;
+     }
     void calculation(){
-        System.out.println("Your balance is "+balance+" so your interest will be "+interest+"%");
+       double InterestAmount=interest*balance/100;
+        System.out.println("Interest "+(InterestAmount));
     }
 
-    public static void main(String[] args) {
-        CreditCard cc=new CreditCard();
-        cc.calculation();
-        Visa vs=new Visa();
-        vs.calculation();
-        AX a=new AX();
-        a.calculation();
-
-    }
 }
 class Visa extends CreditCard{
+    Visa(double balance, double interest){
+        super(balance,interest);
+    }
 
 }
-
 class AX extends CreditCard{
-
+    AX(double balance, double interest){
+        super(balance,interest);
+    }
     void calculation(){
-        System.out.println("Your balance is "+balance*10+" so your interest will be "+(interest+1.5)+"%");
+        double InterestAmount=interest*balance/100;
+        System.out.println();
+        System.out.println("Interest "+(InterestAmount+10));
     }
 }

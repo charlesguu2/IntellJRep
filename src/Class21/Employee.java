@@ -26,10 +26,6 @@ class Tester extends Employee{
     }
 }
 
-class OfficeBBoy extends Employee{
-
-}
-
 class OfficeBoy extends Employee{
 
 }

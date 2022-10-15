@@ -24,7 +24,7 @@ class Bachelors extends Degree{
 
 class Masters extends Degree{
     void getPrerequisite(){
-        System.out.println("To get a Masters degree you need to go to college for 6 years");
+        System.out.println("To get a Masters degree you need a Bachelors");
     }
 }
 
