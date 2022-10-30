@@ -5,6 +5,7 @@ public  interface IDataBase {
     void openDatabase();
     void readData();
     void writeData();
+
 }
 class IBM implements IDataBase{
 

@@ -7,7 +7,7 @@ public class InterfaceTester {
         iDataBase.readData();
         iDataBase.writeData();
 
-        //1:40
+
 
     }
 }
