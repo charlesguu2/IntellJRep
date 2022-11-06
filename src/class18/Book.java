@@ -16,14 +16,14 @@ public class Book {
         this.copiesOfBook = copiesOfBook;
         this.ageOfAuthor = ageOfAuthor;
 
-        System.out.println("The name of this author is "+this.author+".He is "+this.ageOfAuthor+"years old."+"He has around "+copiesOfBook+" copies.");
+        System.out.println("The name of this author is "+author+".He is "+ageOfAuthor+"years old."+"He has around "+copiesOfBook+" copies.");
 
     }
     public Book(String color, String size) {
         this.color = color;
         this.size = size;
 
-        System.out.println("The color of this book is "+this.color+" and it's a pretty "+this.size+" book.");
+        System.out.println("The color of this book is "+color+" and it's a pretty "+size+" book.");
 
     }
 

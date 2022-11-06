@@ -1,4 +1,4 @@
-package review3review3_2;
+package ReviewClasses.review3review3_2;
 
 import ReviewClasses.Country;
 

@@ -1,4 +1,4 @@
-package Review5;
+package ReviewClasses.Review5;
 
 final class Drink {
 

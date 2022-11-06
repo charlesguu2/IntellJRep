@@ -13,6 +13,16 @@ public class Hw1 {
         words.add("Doge");
         words.add("Tacos");
 
+        var iterator=words.iterator();
+
+          while(iterator.hasNext()) {
+              var item=iterator.next();
+              if(item.endsWith("e")) {
+                  iterator.remove();
+              }
+          }
+        System.out.println(words);
+
 
 
     }
