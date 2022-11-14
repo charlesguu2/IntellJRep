@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class ArrayListDemo1 {
     public static void main(String[] args) {
 
-        // break till 1:55
+
         //Syntax to create an arrayList
         ArrayList<String> colors=new ArrayList<>();
         //use add method to insert elements in an arrayList

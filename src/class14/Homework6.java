@@ -19,7 +19,7 @@ public class Homework6 {
 
     public static void main(String[] args) {
         Homework6 hw=new Homework6();
-        System.out.println(hw.isPrime(12));
+        System.out.println(hw.isPrime(3));
     }
 
 

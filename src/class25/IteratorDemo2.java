@@ -25,5 +25,7 @@ public class IteratorDemo2 {
         }
         System.out.println(beautyProducts);
 
+
+
     }
 }

@@ -14,10 +14,6 @@ public class Homework2 {
 
     public static void main(String[] args) {
         Homework2 hw=new Homework2();
-        if(hw.EvenOrOdd(90)) {
-            System.out.println("The number is even");
-        } else {
-            System.out.println("The number is odd");
-        }
+        System.out.println("The number is 90 "+hw.EvenOrOdd(90));
     }
 }
