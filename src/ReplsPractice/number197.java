@@ -15,7 +15,6 @@ public class number197 {
 
         dataList.add(appleMap);
 
-
         Map<String, Object>OrangeMap=new HashMap<>();
         OrangeMap.put("Items",(Object)"Orange" );
         OrangeMap.put("Price",(Object)21.99);
